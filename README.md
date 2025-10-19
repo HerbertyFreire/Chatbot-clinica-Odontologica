@@ -1,6 +1,6 @@
 # Chatbot Clínica Odontológica - Interface Web
 
-![Screenshot do Chatbot](https://i.imgur.com/gK2T3z6.png) ## 📝 Descrição
+![Screenshot do Chatbot]([https://i.imgur.com/gK2T3z6.png](https://github.com/HerbertyFreire/Chatbot-clinica-Odontologica/blob/main/chat%20bot.png)) ## 📝 Descrição
 
 Este projeto é uma interface web de chat (frontend) com um servidor intermediário (backend) para se conectar de forma segura a um agente do **Google Dialogflow ES**. Ele foi projetado para simular o atendimento virtual de uma clínica odontológica, permitindo que os usuários agendem consultas e obtenham informações através de um fluxo de conversa natural.
 
