@@ -1,7 +1,11 @@
 # Chatbot Clínica Odontológica - Interface Web
 
-
+<div align="center">
   <img src="./chat bot.png" alt="CLINICA" width="300"/>
+
+  ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+
+  </div>
 
 ## 📝 Descrição
 
