@@ -1,6 +1,6 @@
 # Chatbot Clínica Odontológica - Interface Web
 
-<div align="center">
+
   <img src="./chat bot.png" alt="CLINICA" width="300"/>
 
 ## 📝 Descrição
