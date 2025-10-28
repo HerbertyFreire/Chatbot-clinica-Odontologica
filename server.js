@@ -8,13 +8,12 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Seu Project ID (está correto)
+// ID do seu projeto (verifique se está correto)
 const projectId = 'chatbot-clinica-sa-de-ewqm';
 
 // Crie o cliente de sessão do Dialogflow
 const sessionClient = new dialogflow.SessionsClient({
-    // ESTA É A FORMA CORRETA:
-    // Ele vai procurar o arquivo 'credentials.json' na mesma pasta do server.js
+    // AQUI ESTÁ A CORREÇÃO: Usamos um caminho simples para o arquivo
     keyFilename: './credentials.json'
 });
 // --------------------
