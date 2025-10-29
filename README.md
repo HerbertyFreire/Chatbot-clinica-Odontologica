@@ -52,3 +52,36 @@ O backend em Node.js precisa de alguns pacotes para funcionar. Com o terminal ab
 
 ```bash
 npm install
+
+## Passo 4: Configurar as Credenciais do Google Cloud
+
+Esta é a etapa mais importante. Você precisará de um arquivo de credenciais e do ID do projeto para autorizar a conexão.
+
+### Habilitar a API do Dialogflow
+
+1. Vá para a página da API do [Dialogflow](https://console.cloud.google.com/).
+2. Certifique-se de que seu projeto está selecionado e clique em **"ATIVAR"**.
+
+### Crie e Baixe a Chave de Serviço
+
+1. No Google Cloud Console, vá para **IAM e admin** > **Contas de serviço**.
+2. Encontre a conta de serviço que deseja usar ou crie uma nova.
+3. Vá na aba **"CHAVES"**, clique em **"ADICIONAR CHAVE"** -> **"Criar nova chave"** e selecione **JSON**. Um arquivo `.json` será baixado.
+
+### Posicione o Arquivo de Credenciais
+
+1. Renomeie o arquivo JSON baixado para `credentials.json`.
+2. Mova este arquivo para a raiz do seu projeto (a mesma pasta onde está o `server.js`).
+
+### Atribua a Permissão Correta
+
+1. Volte para a página do **IAM**.
+2. Encontre a conta de serviço que você está usando e clique no ícone de lápis (✏️).
+3. Clique em **"ADICIONAR OUTRO PAPEL"**.
+4. Procure e adicione o papel: **Cliente da API do Dialogflow** (Dialogflow API Client).
+5. Clique em **"SALVAR"**.
+
+### ⚠️ IMPORTANTE: Segurança das Credenciais
+
+O arquivo `credentials.json` contém chaves secretas. **NUNCA, JAMAIS** envie este arquivo para um repositório público no GitHub.
+
