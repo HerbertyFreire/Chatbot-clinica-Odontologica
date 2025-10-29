@@ -1,7 +1,7 @@
 # Chatbot Clínica Odontológica - Interface Web
 
 <div align="center">
-  <img src="https://github.com/HerbertyFreire/Chatbot-clinica-Odontologica/blob/main/chat%20bot.png" alt="CLINICA" width="300"/>
+  <img src="./chat bot.png" alt="CLINICA" width="300"/>
 
   ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
