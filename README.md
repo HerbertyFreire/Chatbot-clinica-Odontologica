@@ -52,7 +52,7 @@ O backend em Node.js precisa de alguns pacotes para funcionar. Com o terminal ab
 
 ```bash
 npm install
-
+```
 ## Passo 4: Configurar as Credenciais do Google Cloud
 
 Esta é a etapa mais importante. Você precisará de um arquivo de credenciais e do ID do projeto para autorizar a conexão.
@@ -84,4 +84,10 @@ Esta é a etapa mais importante. Você precisará de um arquivo de credenciais e
 ### ⚠️ IMPORTANTE: Segurança das Credenciais
 
 O arquivo `credentials.json` contém chaves secretas. **NUNCA, JAMAIS** envie este arquivo para um repositório público no GitHub.
+
+
+
+
+
+
 
