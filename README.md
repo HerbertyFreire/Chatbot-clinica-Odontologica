@@ -3,7 +3,7 @@
 <div align="center">
   <img src="./chat bot.png" alt="CLINICA" width="300"/>
 
-  ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+  ![Status](https://img.shields.io/badge/status-%20concluído-green)
 
   </div>
 
